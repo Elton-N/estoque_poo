@@ -28,8 +28,70 @@ Sistema CLI (Command Line Interface) para controlar estoque de produtos, categor
 -  Histórico por produto
 -  Últimas movimentações
 
-### 📈 Relatórios
+###  Relatórios
 -  Estatísticas gerais do estoque
 -  Valor total do estoque
 -  Produtos que precisam reposição
 -  Alertas de validade
+
+
+
+##  Como Compilar e Executar
+
+### Pré-requisitos
+- Java JDK 8 ou superior instalado
+- Terminal/Prompt de comando
+
+### Opção 1: Script Automático (Linux/Mac)
+
+```bash
+chmod +x compilar.sh
+./compilar.sh
+```
+
+### Opção 2: Script Automático (Windows)
+
+```cmd
+compilar.bat
+```
+
+## 💡 Como Usar
+
+### Menu Principal
+```
+┌─────────────────────────────────────────┐
+│           MENU PRINCIPAL                │
+├─────────────────────────────────────────┤   
+│ 1 - Gerenciar Categorias                │
+│ 2 - Gerenciar Produtos                  │
+│ 3 - Movimentações de Estoque            │
+│ 4 - Relatórios e Consultas              │
+│ 0 - Sair                                │
+└─────────────────────────────────────────┘
+```
+
+### Exemplos de Uso
+
+**1. Cadastrar uma categoria:**
+- Menu Principal → 1 → 1
+- Digite nome e descrição
+
+**2. Cadastrar um produto:**
+- Menu Principal → 2 → 1 (ou 2 para perecível)
+- Escolha uma categoria
+- Preencha os dados do produto
+
+**3. Registrar entrada de mercadorias:**
+- Menu Principal → 3 → 1
+- Digite o ID do produto
+- Informe a quantidade
+
+**4. Registrar saída (venda):**
+- Menu Principal → 3 → 2
+- Digite o ID do produto
+- Informe a quantidade
+
+**5. Ver relatórios:**
+- Menu Principal → 4
+
+
