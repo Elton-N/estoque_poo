@@ -2,7 +2,7 @@
 
 Sistema CLI (Command Line Interface) para controlar estoque de produtos, categorias e movimentações de entrada/saída. Os dados são armazenados em memória utilizando coleções Java.
 
-##  Funcionalidades (Algumas ainda estão em fucionalidade)
+##  Funcionalidades (Algumas ainda estão em desenvolvimento)
 
 # Gerenciamento de Categorias
 - Cadastrar categorias de produtos
